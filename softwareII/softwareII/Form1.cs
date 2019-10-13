@@ -39,5 +39,10 @@ namespace softwareII
             this.timer1.Start();
             this.timer1.Enabled = true;
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
