@@ -34,15 +34,21 @@ namespace softwareII
             // timer1.Stop();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
             this.timer1.Start();
             this.timer1.Enabled = true;
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void progressBar1_Click_1(object sender, EventArgs e)
         {
-
+            /* progressBar1.Value = 0.0
+             progressBar1.Maximum = 100
+             Timer1.Interval = 40
+             Timer1.Enabled = true*/
+            ProgressBar pb1 = new ProgressBar();
         }
     }
 }
