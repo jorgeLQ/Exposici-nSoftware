@@ -29,7 +29,7 @@ namespace softwareII
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            this.progressBar1.Increment(15);
+            this.progressBar1.Increment(5);
             // progressBar1.Value = 100;
             // timer1.Stop();
         }
