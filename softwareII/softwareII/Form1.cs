@@ -15,6 +15,7 @@ namespace softwareII
         public Form1()
         {
             InitializeComponent();
+            this.label1.Visible = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -30,6 +31,7 @@ namespace softwareII
         private void timer1_Tick(object sender, EventArgs e)
         {
             this.progressBar1.Increment(5);
+            this.label1.Text = progressBar1.Value.ToString() + "%";
             // progressBar1.Value = 100;
             // timer1.Stop();
         }
@@ -40,6 +42,8 @@ namespace softwareII
         {
             this.timer1.Start();
             this.timer1.Enabled = true;
+            this.label1.Visible = true;
+
         }
 
         private void progressBar1_Click_1(object sender, EventArgs e)
@@ -49,6 +53,11 @@ namespace softwareII
              Timer1.Interval = 40
              Timer1.Enabled = true*/
             ProgressBar pb1 = new ProgressBar();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
