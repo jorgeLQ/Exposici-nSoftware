@@ -23,24 +23,31 @@ namespace softwareII
 
         }
 
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-            ProgressBar pb1 = new ProgressBar();
-        }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
-            
+          //  LENIN formLenin = new LENIN();
+            this.progressBar1.Increment(5);
+
+            if (this.progressBar1.Value == this.progressBar1.Maximum)
+            {
+                this.timer1.Stop();
+
+                //formLenin.show
+
+            }
         }
 
         
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-        
+            this.timer1.Start();
 
         }
 
-       
+        private void progressBar1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
