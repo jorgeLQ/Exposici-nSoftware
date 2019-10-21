@@ -36,9 +36,10 @@
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(334, 399);
+            this.btnEntrar.Location = new System.Drawing.Point(250, 324);
+            this.btnEntrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(127, 42);
+            this.btnEntrar.Size = new System.Drawing.Size(95, 34);
             this.btnEntrar.TabIndex = 0;
             this.btnEntrar.Text = "ENTRAR";
             this.btnEntrar.UseVisualStyleBackColor = true;
@@ -46,9 +47,10 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(269, 370);
+            this.progressBar1.Location = new System.Drawing.Point(202, 301);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(246, 23);
+            this.progressBar1.Size = new System.Drawing.Size(184, 19);
             this.progressBar1.TabIndex = 1;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click_1);
             // 
@@ -58,13 +60,14 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::softwareII.Properties.Resources.INGSW;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(780, 450);
+            this.ClientSize = new System.Drawing.Size(585, 366);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.btnEntrar);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "BIENVENIDO";
             this.Load += new System.EventHandler(this.Form1_Load);
