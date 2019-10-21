@@ -16,7 +16,7 @@ namespace softwareII
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LENIN());
+            Application.Run(new Form2());
         }
     }
 }
