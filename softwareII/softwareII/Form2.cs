@@ -19,7 +19,7 @@ namespace softwareII
 
         private void SUMAR_Click(object sender, EventArgs e)
         {
-            txtN3.Text = (Convert.ToInt32(txtN1.Text) + Convert.ToInt32(txtN2.Text)).ToString();
+            txtN3.Text = (Convert.ToInt32(txtN1.Text) * Convert.ToInt32(txtN2.Text)).ToString();
         }
     }
 }
