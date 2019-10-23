@@ -21,5 +21,10 @@ namespace softwareII
         {
             txtN3.Text = (Convert.ToInt32(txtN1.Text) * Convert.ToInt32(txtN2.Text)).ToString();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

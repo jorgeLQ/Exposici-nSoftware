@@ -25,15 +25,16 @@ namespace softwareII
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-          //  LENIN formLenin = new LENIN();
+            //  LENIN formLenin = new LENIN();
+            //Form2 leninform = new Form2();
             this.progressBar1.Increment(5);
 
             if (this.progressBar1.Value == this.progressBar1.Maximum)
             {
                 this.timer1.Stop();
-
+                //leninform.Show();
                 //formLenin.show
-
+                
             }
         }
 
