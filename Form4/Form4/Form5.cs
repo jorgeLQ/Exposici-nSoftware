@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Form4
 {
-    public partial class Form1 : Form
+    public partial class Form5 : Form
     {
-        public Form1()
+        public Form5()
         {
             InitializeComponent();
             this.textBox3.Enabled = false;
@@ -20,7 +20,7 @@ namespace Form4
 
         private void btnrestar_Click(object sender, EventArgs e)
         {
-            //textBox3.Text = (Convert.ToInt32(textBox1.Text) - Convert.ToInt32(textBox2.Text)).ToString();
+            textBox3.Text = (Convert.ToInt32(textBox1.Text) / Convert.ToInt32(textBox2.Text)).ToString();
         }
     }
 }
