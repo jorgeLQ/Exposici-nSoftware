@@ -31,6 +31,7 @@ namespace softwareII
             if (this.progressBar1.Value == this.progressBar1.Maximum)
             {
                 this.timer1.Stop();
+                this.timer1.Start();
 
                 //formLenin.show
 
